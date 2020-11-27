@@ -1,0 +1,10 @@
+get_data:
+  cmd: python scripts/get_data.py
+  deps:
+  - path: scripts/get_data.py
+    md5: 8987c2f55c8994a5efd1b4489f6e4bcd
+    size: 222
+  outs:
+  - path: data/raw/owid-covid-data.csv
+    md5: 48c01088bc72094fc56d5f10cbf5a845
+    size: 13880643
