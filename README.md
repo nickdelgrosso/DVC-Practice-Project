@@ -10,6 +10,7 @@ Using an interactive-focused workflow ("Get each Line Working", "Get the Script 
 
   - Download Data (urllib)
   - Register Download Step to Pipeline (dvc init, dvc run)
+  - Reproduce Pipeline on Another Computer (git push/clone, dvc repro)
   - Import Data Directly from Repo (dvc import)
   - Add Notebook and Reports to Pipeline (jupyter nbconvert)
   - Add Step to Pipeline via yaml file(dvc.yaml, dvc dag)
