@@ -7,7 +7,8 @@ Practicing DVC in a group, using DVC's pipelining and remote features.  This is 
   - Register Download Step to Pipeline (dvc init, dvc run)
   - Import Data Directly from Repo (dvc import)
   - Add Notebook and Reports to Pipeline (jupyter nbconvert)
-  - Add Parameterized Step to Pipeline (dvc run, dvc dag)
+  - Add Step to Pipeline via yaml file(dvc.yaml, dvc dag)
+  - Add Parameterized Step to Pipeline (dvc run, dvc param)
 
 ## Dataset
 
