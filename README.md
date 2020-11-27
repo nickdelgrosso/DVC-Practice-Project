@@ -1,3 +1,6 @@
+[![Run on Repl.it](https://repl.it/badge/github/nickdelgrosso/DVC-Practice-Project)](https://repl.it/github/nickdelgrosso/DVC-Practice-Project)
+
+
 # DVC-Practice-Project
 Practicing DVC in a group, using DVC's pipelining and remote features.  This is different from the Git-like workflow, which mostly uses the `dvc add` and `dvc commit` commands, instead focusing on the `dvc run` and `dvc repro` commands to generate a DAG pipeline that complements a normal data science workflow.
 
