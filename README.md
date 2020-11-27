@@ -3,6 +3,8 @@ Practicing DVC in a group, using DVC's pipelining and remote features.  This is 
 
 ## Goals
 
+Using an interactive-focused workflow ("Get each Line Working", "Get the Script Working", "Get the Pipeline Working"), we'll:
+
   - Download Data (urllib)
   - Register Download Step to Pipeline (dvc init, dvc run)
   - Import Data Directly from Repo (dvc import)
