@@ -35,6 +35,18 @@ urlretrieve(url, to_filename)
 ```
 
 
+### Add a new stage to the DVC pipeline
+
+```
+dvc run -n <stage-name> -d <script-path> -d <data-path> -o <output-paths> <command>
+```
+
+Example:
+
+```
+dvc run -n process -d scripts/process_data.py -d data/raw -o data/processed python scripts/process_data.py
+```
+
 ### View hidden files in Jupyter Lab:
 
 ```
